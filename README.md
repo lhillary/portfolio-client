@@ -1,2 +1,2 @@
 # portfolio-client
-Front-end of my portfolio app
+Front-end of my portfolio app. Built using Vue.js.
