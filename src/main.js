@@ -12,7 +12,7 @@ import { Auth0Plugin } from "./auth";
 Vue.use(VueMeta);
 
 Vue.use(VueAnalytics, {
-  id: '190885165',
+  id: 'UA-190885165-1',
   router
 });
 

@@ -21,7 +21,7 @@
                 { property: 'og:title', content: "Lydia Hillary | Portfolio" },
                 { property: 'og:site_name', content: 'Lydia Hillary | Portfolio' },
                 { property: 'og:type', content: 'website' },
-                { property: 'og:image', content: '<%= BASE_URL %>social-pic.jpg' },    
+                { property: 'og:image', content: 'https://www.lydiahillary.com/social-pic.jpg' },    
                 { name: 'robots', content: 'index,follow' } 
             ]
         }

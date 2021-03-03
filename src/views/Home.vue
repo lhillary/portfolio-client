@@ -41,7 +41,7 @@
 <style lang="scss" scoped>
 
     .lh-login {
-        height: 100vh;
+        height: 80vh;
     }
 
     .lh-login-container {

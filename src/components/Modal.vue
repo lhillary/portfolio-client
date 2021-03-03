@@ -139,6 +139,9 @@
         return this.dismissOn.indexOf('esc') > -1;
       }
     },
+    mounted() {
+      this.$ga.page(`${this.title}`);
+    },
     watch: {
       isOpen() {
         this.$nextTick(() => {
