@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue';
 import Projects from '../views/Projects.vue'
 import About from '../views/About.vue'
-import FourOFour from '../veiws/404.vue';
+import FourOFour from '../views/404.vue';
 import { authGuard } from "../auth/authenticationGuard";
 
 Vue.use(VueRouter)
