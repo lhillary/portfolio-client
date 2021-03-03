@@ -42,6 +42,7 @@
 
     .lh-login-container {
         padding: 2em 0em;
+        height: 100vh;
     }
 
 </style>

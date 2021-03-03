@@ -11,7 +11,7 @@ export default {
     };
 
     try{
-        let res = await axios.post('https://lydiahillary-portfolio-api.herokuapp.com/contacts', contact, axiosConfig);
+        let res = await axios.post('https://api.lydiahillary.com/contacts', contact, axiosConfig);
         console.log(res.data);
     } catch(err) {
         console.log(err);
