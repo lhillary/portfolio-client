@@ -2,14 +2,17 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import VueAnalytics from 'vue-analytics';
+import VueMeta from 'vue-meta';
 import 'microns/fonts/microns.css';
 
 import { domain, clientId } from "./auth_config.json";
 
 import { Auth0Plugin } from "./auth";
 
+Vue.use(VueMeta);
+
 Vue.use(VueAnalytics, {
-  id: 'UA-12345678-1',
+  id: '190885165',
   router
 });
 

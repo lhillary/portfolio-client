@@ -13,6 +13,19 @@
 
   export default {
     name: 'portfolio',
+     metaInfo() {
+        return { 
+            title: "Lydia Hillary | Portfolio",
+            meta: [
+                { name:'description', content: 'Lydia Hillary | Portfolio' },
+                { property: 'og:title', content: "Lydia Hillary | Portfolio" },
+                { property: 'og:site_name', content: 'Lydia Hillary | Portfolio' },
+                { property: 'og:type', content: 'website' },
+                { property: 'og:image', content: '<%= BASE_URL %>social-pic.jpg' },    
+                { name: 'robots', content: 'index,follow' } 
+            ]
+        }
+    },
     mounted() {
       document.body.classList.add('light');
     },
