@@ -40,9 +40,12 @@
 
 <style lang="scss" scoped>
 
+    .lh-login {
+        height: 100vh;
+    }
+
     .lh-login-container {
         padding: 2em 0em;
-        height: 100vh;
     }
 
 </style>
