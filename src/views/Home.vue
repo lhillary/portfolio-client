@@ -17,7 +17,7 @@
         name: 'lh-home',
         data() {
             return {
-                text: 'Welcome To The Portfolio Of Lydia Hillary. Find Out More About Me And Log In To Peruse A Selection Of My Projects. Connect With Me On LinkedIn For Credentials (Pesky NDAs).',
+                text: 'Welcome To The Portfolio Of Lydia Hillary. Log In To See My Projects. Connect With Me On LinkedIn For Credentials (Pesky NDAs).',
                 header: 'Welcome To My Portfolio'
             }
         },
